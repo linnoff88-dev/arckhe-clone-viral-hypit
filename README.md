@@ -1,4 +1,4 @@
-﻿# Clone viral com o seu rosto â€” Hypit + Claude Code + fal
+# Clone viral com o seu rosto â€” Hypit + Claude Code + fal
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,13 +6,13 @@
 </div>
 
 
-[![Clone viral com o seu rosto](guia/assets/banner.jpg)](https://inematds.github.io/clone-viral-hypit/guia/)
+[![Clone viral com o seu rosto](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/
 
 **ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
 
 ## O que Ã©
 
-Este Ã© um kit gratuito do INEMA, em portuguÃªs, com mensagens prontas para colar no Claude Code, modelos de arquivo,
+Este Ã© um kit gratuito do ARCKHÉ, em portuguÃªs, com mensagens prontas para colar no Claude Code, modelos de arquivo,
 checklists e uma tabela de preÃ§os. Ele ensina a usar o Hypit, uma ferramenta aberta de vÃ­deo, para refazer um clipe
 curto com o seu prÃ³prio rosto, fazer a versÃ£o em outra lÃ­ngua ou trocar a pessoa por personagens fictÃ­cios. Serve
 para quem faz marketing ou cria conteÃºdo e quer testar vÃ¡rias versÃµes de um anÃºncio sem gravar de novo. VocÃª precisa
@@ -20,9 +20,9 @@ do Claude Code, de uma conta no fal com alguns dÃ³lares de crÃ©dito, de um c
 
 ## ðŸ“– Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/clone-viral-hypit/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/
 
-VÃ­deo explicativo do kit: **https://inematds.github.io/clone-viral-hypit/videos/**
+VÃ­deo explicativo do kit: **https://linnoff88-dev.github.io/
 
 ## Para quem Ã©
 
@@ -88,8 +88,8 @@ Quem faz: ðŸ§  vocÃª no Claude Code Â· âš™ï¸ Hypit/script Â· �
 
 | PeÃ§a | Onde | Quem faz |
 |---|---|---|
-| Guia (PT/EN/ES) | `guia/index.html`, `guia/en/`, `guia/es/` â†’ https://inematds.github.io/clone-viral-hypit/guia/ | ðŸ§  (sessÃ£o INEMA) â†’ âš™ï¸ GitHub Pages via Actions |
-| VÃ­deo explicativo | arquivo final fora do repo; publicado como release `video-v1.0.0` (MP4 + SRT) e player em `videos/` â†’ https://inematds.github.io/clone-viral-hypit/videos/ | âš™ï¸ `python3 scripts/publica.py` |
+| Guia (PT/EN/ES) | `guia/index.html`, `guia/en/`, `guia/es/` â†’ https://linnoff88-dev.github.io/ | ðŸ§  (sessÃ£o ARCKHÉ) â†’ âš™ï¸ GitHub Pages via Actions |
+| VÃ­deo explicativo | arquivo final fora do repo; publicado como release `video-v1.0.0` (MP4 + SRT) e player em `videos/` â†’ https://linnoff88-dev.github.io/ | âš™ï¸ `python3 scripts/publica.py` |
 
 ## Estrutura do kit
 
@@ -130,11 +130,11 @@ provedores de modelo continuam valendo. Leia a licenÃ§a completa em https://gi
 
 ## LicenÃ§a deste kit
 
-[MIT](LICENSE) â€” vale sÃ³ para o texto, os modelos de arquivo e os scripts do INEMA.
+[MIT](LICENSE) â€” vale sÃ³ para o texto, os modelos de arquivo e os scripts do ARCKHÉ.
 
 ---
 
-ConteÃºdo aberto e gratuito do **[INEMA.CLUB](https://inema.club)**.
+ConteÃºdo aberto e gratuito do **[ARCKHÉ AI](https://ARCKHÉ AI)**.
 
 ---
 

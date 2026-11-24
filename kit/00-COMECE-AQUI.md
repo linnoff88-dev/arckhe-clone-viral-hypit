@@ -1,23 +1,23 @@
-# Comece aqui — Clone viral com o seu rosto (Hypit + Claude Code + fal)
+# Comece aqui â€” Clone viral com o seu rosto (Hypit + Claude Code + fal)
 
-Kit do INEMA, em português, para refazer um clipe curto **com o seu próprio rosto**, fazer a versão em
-outra língua ou trocar a pessoa por personagens fictícios — tudo pedindo em texto para o Claude Code.
+Kit do ARCKHÉ, em portuguÃªs, para refazer um clipe curto **com o seu prÃ³prio rosto**, fazer a versÃ£o em
+outra lÃ­ngua ou trocar a pessoa por personagens fictÃ­cios â€” tudo pedindo em texto para o Claude Code.
 
-- **Hypit** é a ferramenta aberta que planeja e monta o vídeo no seu computador: https://github.com/hypit-ai/hypit
-- **fal** (https://fal.ai) é o serviço onde rodam os modelos de imagem e de vídeo. Você paga por imagem e por segundo de vídeo.
-- **Claude Code** conversa com você, escreve os arquivos do Hypit e mostra o plano e o preço antes de gastar.
+- **Hypit** Ã© a ferramenta aberta que planeja e monta o vÃ­deo no seu computador: https://github.com/hypit-ai/hypit
+- **fal** (https://fal.ai) Ã© o serviÃ§o onde rodam os modelos de imagem e de vÃ­deo. VocÃª paga por imagem e por segundo de vÃ­deo.
+- **Claude Code** conversa com vocÃª, escreve os arquivos do Hypit e mostra o plano e o preÃ§o antes de gastar.
 
-Este kit é **só texto**: mensagens prontas para colar no Claude, modelos de arquivo, checklists e a tabela de
-preços. O Hypit **não vem aqui dentro** (a licença dele não permite empacotar). Você instala pelo repositório
-oficial, e o próprio Claude faz isso por você no passo 1.
+Este kit Ã© **sÃ³ texto**: mensagens prontas para colar no Claude, modelos de arquivo, checklists e a tabela de
+preÃ§os. O Hypit **nÃ£o vem aqui dentro** (a licenÃ§a dele nÃ£o permite empacotar). VocÃª instala pelo repositÃ³rio
+oficial, e o prÃ³prio Claude faz isso por vocÃª no passo 1.
 
-## A regra ética (antes de tudo)
+## A regra Ã©tica (antes de tudo)
 
-> **Use só o seu rosto, ou um rosto que você tem permissão por escrito para usar.**
-> **Use só clipes seus, ou clipes que você tem direito de refazer.**
+> **Use sÃ³ o seu rosto, ou um rosto que vocÃª tem permissÃ£o por escrito para usar.**
+> **Use sÃ³ clipes seus, ou clipes que vocÃª tem direito de refazer.**
 
-Nada de rosto de famoso, de colega sem autorização ou de vídeo alheio "porque viralizou". Os personagens do
-arquivo `03-modelos/characters.json` são **fictícios** de propósito.
+Nada de rosto de famoso, de colega sem autorizaÃ§Ã£o ou de vÃ­deo alheio "porque viralizou". Os personagens do
+arquivo `03-modelos/characters.json` sÃ£o **fictÃ­cios** de propÃ³sito.
 
 ## O caminho, em ordem
 
@@ -27,27 +27,27 @@ arquivo `03-modelos/characters.json` são **fictícios** de propósito.
 | 2 | Refazer o clipe com o seu rosto | `02-mensagens/1-refazer-com-seu-rosto.md` |
 | 3 | Conferir o que ficou com cara de falso | `04-checklists/confira-antes-de-corrigir.md` |
 | 4 | Corrigir com modelos premium | `02-mensagens/2-corrigir-com-premium.md` |
-| 5 | Fazer versões: outra língua ou outras pessoas | `02-mensagens/3-nova-lingua.md` e `4-um-clipe-varias-pessoas.md` |
-| 6 | Usar as versões num teste de anúncio | `04-checklists/teste-com-7-versoes.md` |
+| 5 | Fazer versÃµes: outra lÃ­ngua ou outras pessoas | `02-mensagens/3-nova-lingua.md` e `4-um-clipe-varias-pessoas.md` |
+| 6 | Usar as versÃµes num teste de anÃºncio | `04-checklists/teste-com-7-versoes.md` |
 | 7 | Evitar os 3 erros | `04-checklists/3-erros.md` |
 
-Preços e links: `05-precos-e-links.md`. Modelos de arquivo (SVML, runtime, personagens): `03-modelos/`.
+PreÃ§os e links: `05-precos-e-links.md`. Modelos de arquivo (SVML, runtime, personagens): `03-modelos/`.
 
 ## A frase que protege o seu dinheiro
 
 Termine **toda** mensagem de trabalho com:
 
-> **Me mostre o plano e o preço e não construa nada.**
+> **Me mostre o plano e o preÃ§o e nÃ£o construa nada.**
 
-Com ela, o Claude lê o pedido, monta o plano, calcula quanto vai custar no fal e **para**. Só depois que você
-olhar o plano e o preço e disser "pode fazer" é que ele gasta crédito. Sem essa frase, um pedido mal entendido
-pode virar dez clipes pagos antes de você perceber.
+Com ela, o Claude lÃª o pedido, monta o plano, calcula quanto vai custar no fal e **para**. SÃ³ depois que vocÃª
+olhar o plano e o preÃ§o e disser "pode fazer" Ã© que ele gasta crÃ©dito. Sem essa frase, um pedido mal entendido
+pode virar dez clipes pagos antes de vocÃª perceber.
 
 ## O que esperar (sem promessa)
 
-Não é mágica. O rosto às vezes escorrega, a mão fica dura, letreiro vira letra sem sentido. Você confere
-quadro a quadro. A vantagem é que, depois de montado o primeiro, um rosto novo ou uma língua nova é uma
-mensagem a mais, não um dia de gravação.
+NÃ£o Ã© mÃ¡gica. O rosto Ã s vezes escorrega, a mÃ£o fica dura, letreiro vira letra sem sentido. VocÃª confere
+quadro a quadro. A vantagem Ã© que, depois de montado o primeiro, um rosto novo ou uma lÃ­ngua nova Ã© uma
+mensagem a mais, nÃ£o um dia de gravaÃ§Ã£o.
 
-Os custos citados no kit são **aproximados, calculados pelos preços de tabela lidos em 21/10/2026**. Confira as
-páginas do fal antes de gastar: preço muda.
+Os custos citados no kit sÃ£o **aproximados, calculados pelos preÃ§os de tabela lidos em 21/10/2026**. Confira as
+pÃ¡ginas do fal antes de gastar: preÃ§o muda.
