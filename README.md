@@ -1,4 +1,4 @@
-# Clone viral com o seu rosto â€” Hypit + Claude Code + fal
+# Clone viral com o seu rosto ê¢â¬â Hypit + Claude Code + fal
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -8,133 +8,133 @@
 
 [![Clone viral com o seu rosto](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/
 
-**ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
+**ê°Å¸â¡Â§ê°Å¸â¡Â· [PortuguêÂªs](README.md) êÂ· ê°Å¸â¡Âºê°Å¸â¡Â¸ [English](README.en.md) êÂ· ê°Å¸â¡Âªê°Å¸â¡Â¸ [EspaêÂ±ol](README.es.md)**
 
-## O que Ã©
+## O que êÂ©
 
-Este Ã© um kit gratuito do ARCKHÉ, em portuguÃªs, com mensagens prontas para colar no Claude Code, modelos de arquivo,
-checklists e uma tabela de preÃ§os. Ele ensina a usar o Hypit, uma ferramenta aberta de vÃ­deo, para refazer um clipe
-curto com o seu prÃ³prio rosto, fazer a versÃ£o em outra lÃ­ngua ou trocar a pessoa por personagens fictÃ­cios. Serve
-para quem faz marketing ou cria conteÃºdo e quer testar vÃ¡rias versÃµes de um anÃºncio sem gravar de novo. VocÃª precisa
-do Claude Code, de uma conta no fal com alguns dÃ³lares de crÃ©dito, de um clipe seu e de duas fotos do seu rosto.
+Este êÂ© um kit gratuito do ARCKHê, em portuguêÂªs, com mensagens prontas para colar no Claude Code, modelos de arquivo,
+checklists e uma tabela de preêÂ§os. Ele ensina a usar o Hypit, uma ferramenta aberta de vêÂ­deo, para refazer um clipe
+curto com o seu prêÂ³prio rosto, fazer a versêÂ£o em outra lêÂ­ngua ou trocar a pessoa por personagens fictêÂ­cios. Serve
+para quem faz marketing ou cria conteêÂºdo e quer testar vêÂ¡rias versêÂµes de um anêÂºncio sem gravar de novo. VocêÂª precisa
+do Claude Code, de uma conta no fal com alguns dêÂ³lares de crêÂ©dito, de um clipe seu e de duas fotos do seu rosto.
 
-## ðŸ“– Guia de uso
+## ê°Å¸ââ Guia de uso
 
 Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/
 
-VÃ­deo explicativo do kit: **https://linnoff88-dev.github.io/
+VêÂ­deo explicativo do kit: **https://linnoff88-dev.github.io/
 
-## Para quem Ã©
+## Para quem êÂ©
 
-- **Marketing e trÃ¡fego pago:** um clipe vira 5 a 10 versÃµes para testar com pouca verba antes de gravar de verdade.
-- **Criadores de conteÃºdo:** a mesma cena em outra lÃ­ngua, ou com vocÃª no lugar do apresentador, sem cÃ¢mera nem estÃºdio.
+- **Marketing e trêÂ¡fego pago:** um clipe vira 5 a 10 versêÂµes para testar com pouca verba antes de gravar de verdade.
+- **Criadores de conteêÂºdo:** a mesma cena em outra lêÂ­ngua, ou com vocêÂª no lugar do apresentador, sem cêÂ¢mera nem estêÂºdio.
 
-## As trÃªs peÃ§as
+## As trêÂªs peêÂ§as
 
-- **[Hypit](https://github.com/hypit-ai/hypit)** â€” ferramenta aberta que roda dentro do Claude Code: lÃª o seu vÃ­deo,
-  planeja um novo, pede aos modelos as imagens e os clipes, pÃµe legendas e monta tudo no seu computador.
-- **[fal](https://fal.ai)** â€” serviÃ§o onde rodam os modelos de imagem e de vÃ­deo. VocÃª paga por imagem e por segundo.
-- **Claude Code** â€” vocÃª pede em texto; ele escreve os arquivos do Hypit e mostra o plano e o preÃ§o antes de gastar.
+- **[Hypit](https://github.com/hypit-ai/hypit)** ê¢â¬â ferramenta aberta que roda dentro do Claude Code: lêÂª o seu vêÂ­deo,
+  planeja um novo, pede aos modelos as imagens e os clipes, pêÂµe legendas e monta tudo no seu computador.
+- **[fal](https://fal.ai)** ê¢â¬â serviêÂ§o onde rodam os modelos de imagem e de vêÂ­deo. VocêÂª paga por imagem e por segundo.
+- **Claude Code** ê¢â¬â vocêÂª pede em texto; ele escreve os arquivos do Hypit e mostra o plano e o preêÂ§o antes de gastar.
 
-**O Hypit nÃ£o vem neste repositÃ³rio.** A licenÃ§a dele nÃ£o permite empacotar; o prÃ³prio Claude instala a partir do
-repositÃ³rio oficial.
+**O Hypit nêÂ£o vem neste repositêÂ³rio.** A licenêÂ§a dele nêÂ£o permite empacotar; o prêÂ³prio Claude instala a partir do
+repositêÂ³rio oficial.
 
 ## Os 3 passos
 
-1. **Instalar** â€” uma mensagem instala o Hypit sÃ³ no projeto e liga o fal lendo a `FAL_KEY` do ambiente (uns 6 min).
-2. **Refazer com o seu rosto** â€” primeiro e Ãºltimo quadro com o seu rosto, depois os 8 segundos entre eles.
-3. **Conferir, corrigir e fazer versÃµes** â€” rosto, mÃ£os e texto; modelos premium; outra lÃ­ngua; personagens fictÃ­cios.
+1. **Instalar** ê¢â¬â uma mensagem instala o Hypit sêÂ³ no projeto e liga o fal lendo a `FAL_KEY` do ambiente (uns 6 min).
+2. **Refazer com o seu rosto** ê¢â¬â primeiro e êÂºltimo quadro com o seu rosto, depois os 8 segundos entre eles.
+3. **Conferir, corrigir e fazer versêÂµes** ê¢â¬â rosto, mêÂ£os e texto; modelos premium; outra lêÂ­ngua; personagens fictêÂ­cios.
 
-Toda mensagem termina com **"Me mostre o plano e o preÃ§o e nÃ£o construa nada."** â€” a frase que faz o Claude orÃ§ar e
-parar antes de gastar crÃ©dito.
+Toda mensagem termina com **"Me mostre o plano e o preêÂ§o e nêÂ£o construa nada."** ê¢â¬â a frase que faz o Claude orêÂ§ar e
+parar antes de gastar crêÂ©dito.
 
-## PreÃ§os (aproximados, pela tabela de 21/10/2026)
+## PreêÂ§os (aproximados, pela tabela de 21/10/2026)
 
-| O quÃª | Custo aproximado |
+| O quêÂª | Custo aproximado |
 |---|---|
-| Primeira versÃ£o com o seu rosto (Seedream 5 Lite + MiniMax H3 768p) | US$ 0,71 |
-| VersÃ£o premium (GPT Image 2.5 + MiniMax H3 Max 1080p) | ~US$ 2 |
-| VersÃ£o em outra lÃ­ngua | ~US$ 2 |
-| MiniMax H3 Recast 1080p (US$ 0,45/s) | US$ 3,60 por clipe de 8 s Â· 7 versÃµes â‰ˆ US$ 25,20 Â· lote de 8 â‰ˆ US$ 28,80 |
-| Higgsfield Genjutsu 1080p (US$ 1,632/s, comparaÃ§Ã£o) | US$ 13,06 por clipe Â· lote de 8 â‰ˆ US$ 104,50 |
+| Primeira versêÂ£o com o seu rosto (Seedream 5 Lite + MiniMax H3 768p) | US$ 0,71 |
+| VersêÂ£o premium (GPT Image 2.5 + MiniMax H3 Max 1080p) | ~US$ 2 |
+| VersêÂ£o em outra lêÂ­ngua | ~US$ 2 |
+| MiniMax H3 Recast 1080p (US$ 0,45/s) | US$ 3,60 por clipe de 8 s êÂ· 7 versêÂµes ê¢â°Ë US$ 25,20 êÂ· lote de 8 ê¢â°Ë US$ 28,80 |
+| Higgsfield Genjutsu 1080p (US$ 1,632/s, comparaêÂ§êÂ£o) | US$ 13,06 por clipe êÂ· lote de 8 ê¢â°Ë US$ 104,50 |
 
-PreÃ§o muda: confira as pÃ¡ginas antes de gastar. Recast e Genjutsu sÃ£o modelos diferentes; sÃ³ o preÃ§o foi comparado.
+PreêÂ§o muda: confira as pêÂ¡ginas antes de gastar. Recast e Genjutsu sêÂ£o modelos diferentes; sêÂ³ o preêÂ§o foi comparado.
 Fontes e detalhes em [`kit/05-precos-e-links.md`](kit/05-precos-e-links.md).
 
-## âš ï¸ A regra Ã©tica
+## ê¢Å¡Â ê¯Â¸Â A regra êÂ©tica
 
-**Use sÃ³ o seu rosto, ou um rosto que vocÃª tem permissÃ£o por escrito para usar. Use sÃ³ clipes seus, ou clipes que
-vocÃª tem direito de refazer.** Nada de pessoa famosa, de colega sem autorizaÃ§Ã£o ou de vÃ­deo alheio. Os personagens do
-kit sÃ£o fictÃ­cios. Se o anÃºncio parece depoimento, avise que Ã© conteÃºdo gerado por IA.
+**Use sêÂ³ o seu rosto, ou um rosto que vocêÂª tem permissêÂ£o por escrito para usar. Use sêÂ³ clipes seus, ou clipes que
+vocêÂª tem direito de refazer.** Nada de pessoa famosa, de colega sem autorizaêÂ§êÂ£o ou de vêÂ­deo alheio. Os personagens do
+kit sêÂ£o fictêÂ­cios. Se o anêÂºncio parece depoimento, avise que êÂ© conteêÂºdo gerado por IA.
 
-## O processo, do inÃ­cio ao fim
+## O processo, do inêÂ­cio ao fim
 
-Quem faz: ðŸ§  vocÃª no Claude Code Â· âš™ï¸ Hypit/script Â· ðŸ¤– modelos no fal.
+Quem faz: ê°Å¸Â§Â  vocêÂª no Claude Code êÂ· ê¢Å¡â¢ê¯Â¸Â Hypit/script êÂ· ê°Å¸Â¤â modelos no fal.
 
 | # | Passo | O que fazer | Quem faz |
 |---|---|---|---|
-| 1 | Preparar | Criar a pasta do projeto com `references/meu-clipe.mp4`, `rosto-1.jpg`, `rosto-2.jpg` (para personagens: `references/meu-ugc.mp4` e `characters.json` na raiz); o Claude extrai os quadros ([`kit/01-instalacao/1-o-que-precisa.md`](kit/01-instalacao/1-o-que-precisa.md)) | ðŸ§  |
-| 2 | Guardar a chave | `export FAL_KEY="..."` no `~/.zshrc`/`~/.bashrc` (Windows: `setx FAL_KEY "..."`), abrir terminal novo; nunca no chat ([`3-chave-fal-segura.md`](kit/01-instalacao/3-chave-fal-segura.md)) | ðŸ§  |
-| 3 | Instalar | Colar a mensagem de instalaÃ§Ã£o no Claude Code ([`2-mensagem-de-instalacao.md`](kit/01-instalacao/2-mensagem-de-instalacao.md)); o Hypit Ã© instalado com `npx skills add hypit-ai/hypit` (sem `-g`) e `@hypit/hypit` | ðŸ§  â†’ âš™ï¸ |
-| 4 | OrÃ§ar o primeiro clipe | Colar a mensagem 1 ([`kit/02-mensagens/1-refazer-com-seu-rosto.md`](kit/02-mensagens/1-refazer-com-seu-rosto.md)); o Claude escreve o `.svml` e mostra plano e preÃ§o | ðŸ§  â†’ âš™ï¸ |
-| 5 | Gerar as imagens | Dizer "pode construir as imagens"; os 2 quadros com o seu rosto saem do fal | ðŸ¤– |
-| 6 | Conferir as imagens | Rosto, mÃ£os, texto ([`kit/04-checklists/confira-antes-de-corrigir.md`](kit/04-checklists/confira-antes-de-corrigir.md)) | ðŸ§  |
-| 7 | Gerar o vÃ­deo | Dizer "pode construir o clipe"; o fal gera os 8 s e o Hypit monta no seu computador | ðŸ¤– â†’ âš™ï¸ |
-| 8 | Corrigir | Mensagem 2 (premium), orÃ§ar, conferir, construir | ðŸ§  â†’ ðŸ¤– |
-| 9 | Fazer versÃµes | Mensagem 3 (outra lÃ­ngua) e/ou 4 (personagens fictÃ­cios do `characters.json`) | ðŸ§  â†’ ðŸ¤– â†’ âš™ï¸ |
-| 10 | Testar | Rodar as versÃµes como um teste sÃ³ e ficar com as que retÃªm mais ([`teste-com-7-versoes.md`](kit/04-checklists/teste-com-7-versoes.md)) | ðŸ§  |
+| 1 | Preparar | Criar a pasta do projeto com `references/meu-clipe.mp4`, `rosto-1.jpg`, `rosto-2.jpg` (para personagens: `references/meu-ugc.mp4` e `characters.json` na raiz); o Claude extrai os quadros ([`kit/01-instalacao/1-o-que-precisa.md`](kit/01-instalacao/1-o-que-precisa.md)) | ê°Å¸Â§Â  |
+| 2 | Guardar a chave | `export FAL_KEY="..."` no `~/.zshrc`/`~/.bashrc` (Windows: `setx FAL_KEY "..."`), abrir terminal novo; nunca no chat ([`3-chave-fal-segura.md`](kit/01-instalacao/3-chave-fal-segura.md)) | ê°Å¸Â§Â  |
+| 3 | Instalar | Colar a mensagem de instalaêÂ§êÂ£o no Claude Code ([`2-mensagem-de-instalacao.md`](kit/01-instalacao/2-mensagem-de-instalacao.md)); o Hypit êÂ© instalado com `npx skills add hypit-ai/hypit` (sem `-g`) e `@hypit/hypit` | ê°Å¸Â§Â  ê¢â â ê¢Å¡â¢ê¯Â¸Â |
+| 4 | OrêÂ§ar o primeiro clipe | Colar a mensagem 1 ([`kit/02-mensagens/1-refazer-com-seu-rosto.md`](kit/02-mensagens/1-refazer-com-seu-rosto.md)); o Claude escreve o `.svml` e mostra plano e preêÂ§o | ê°Å¸Â§Â  ê¢â â ê¢Å¡â¢ê¯Â¸Â |
+| 5 | Gerar as imagens | Dizer "pode construir as imagens"; os 2 quadros com o seu rosto saem do fal | ê°Å¸Â¤â |
+| 6 | Conferir as imagens | Rosto, mêÂ£os, texto ([`kit/04-checklists/confira-antes-de-corrigir.md`](kit/04-checklists/confira-antes-de-corrigir.md)) | ê°Å¸Â§Â  |
+| 7 | Gerar o vêÂ­deo | Dizer "pode construir o clipe"; o fal gera os 8 s e o Hypit monta no seu computador | ê°Å¸Â¤â ê¢â â ê¢Å¡â¢ê¯Â¸Â |
+| 8 | Corrigir | Mensagem 2 (premium), orêÂ§ar, conferir, construir | ê°Å¸Â§Â  ê¢â â ê°Å¸Â¤â |
+| 9 | Fazer versêÂµes | Mensagem 3 (outra lêÂ­ngua) e/ou 4 (personagens fictêÂ­cios do `characters.json`) | ê°Å¸Â§Â  ê¢â â ê°Å¸Â¤â ê¢â â ê¢Å¡â¢ê¯Â¸Â |
+| 10 | Testar | Rodar as versêÂµes como um teste sêÂ³ e ficar com as que retêÂªm mais ([`teste-com-7-versoes.md`](kit/04-checklists/teste-com-7-versoes.md)) | ê°Å¸Â§Â  |
 
-### Onde ficam o guia e o vÃ­deo deste repositÃ³rio
+### Onde ficam o guia e o vêÂ­deo deste repositêÂ³rio
 
-| PeÃ§a | Onde | Quem faz |
+| PeêÂ§a | Onde | Quem faz |
 |---|---|---|
-| Guia (PT/EN/ES) | `guia/index.html`, `guia/en/`, `guia/es/` â†’ https://linnoff88-dev.github.io/ | ðŸ§  (sessÃ£o ARCKHÉ) â†’ âš™ï¸ GitHub Pages via Actions |
-| VÃ­deo explicativo | arquivo final fora do repo; publicado como release `video-v1.0.0` (MP4 + SRT) e player em `videos/` â†’ https://linnoff88-dev.github.io/ | âš™ï¸ `python3 scripts/publica.py` |
+| Guia (PT/EN/ES) | `guia/index.html`, `guia/en/`, `guia/es/` ê¢â â https://linnoff88-dev.github.io/ | ê°Å¸Â§Â  (sessêÂ£o ARCKHê) ê¢â â ê¢Å¡â¢ê¯Â¸Â GitHub Pages via Actions |
+| VêÂ­deo explicativo | arquivo final fora do repo; publicado como release `video-v1.0.0` (MP4 + SRT) e player em `videos/` ê¢â â https://linnoff88-dev.github.io/ | ê¢Å¡â¢ê¯Â¸Â `python3 scripts/publica.py` |
 
 ## Estrutura do kit
 
 ```
 kit/
-â”œâ”€â”€ 00-COMECE-AQUI.md
-â”œâ”€â”€ 01-instalacao/
-â”‚   â”œâ”€â”€ 1-o-que-precisa.md
-â”‚   â”œâ”€â”€ 2-mensagem-de-instalacao.md
-â”‚   â””â”€â”€ 3-chave-fal-segura.md
-â”œâ”€â”€ 02-mensagens/
-â”‚   â”œâ”€â”€ 1-refazer-com-seu-rosto.md
-â”‚   â”œâ”€â”€ 2-corrigir-com-premium.md
-â”‚   â”œâ”€â”€ 3-nova-lingua.md
-â”‚   â””â”€â”€ 4-um-clipe-varias-pessoas.md
-â”œâ”€â”€ 03-modelos/
-â”‚   â”œâ”€â”€ README.md
-â”‚   â”œâ”€â”€ characters.json
-â”‚   â”œâ”€â”€ hypit.runtime.example.json
-â”‚   â”œâ”€â”€ refazer-com-seu-rosto.svml
-â”‚   â””â”€â”€ recast-um-personagem.svml
-â”œâ”€â”€ 04-checklists/
-â”‚   â”œâ”€â”€ confira-antes-de-corrigir.md
-â”‚   â”œâ”€â”€ 3-erros.md
-â”‚   â””â”€â”€ teste-com-7-versoes.md
-â””â”€â”€ 05-precos-e-links.md
-guia/        pÃ¡gina de uso (PT, en/, es/)
-videos/      player do vÃ­deo explicativo
-scripts/     publica.py (sobe o vÃ­deo como release e gera o player)
+ê¢âÅê¢ââ¬ê¢ââ¬ 00-COMECE-AQUI.md
+ê¢âÅê¢ââ¬ê¢ââ¬ 01-instalacao/
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ 1-o-que-precisa.md
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ 2-mensagem-de-instalacao.md
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ 3-chave-fal-segura.md
+ê¢âÅê¢ââ¬ê¢ââ¬ 02-mensagens/
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ 1-refazer-com-seu-rosto.md
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ 2-corrigir-com-premium.md
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ 3-nova-lingua.md
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ 4-um-clipe-varias-pessoas.md
+ê¢âÅê¢ââ¬ê¢ââ¬ 03-modelos/
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ README.md
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ characters.json
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ hypit.runtime.example.json
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ refazer-com-seu-rosto.svml
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ recast-um-personagem.svml
+ê¢âÅê¢ââ¬ê¢ââ¬ 04-checklists/
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ confira-antes-de-corrigir.md
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ 3-erros.md
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ teste-com-7-versoes.md
+ê¢ââê¢ââ¬ê¢ââ¬ 05-precos-e-links.md
+guia/        pêÂ¡gina de uso (PT, en/, es/)
+videos/      player do vêÂ­deo explicativo
+scripts/     publica.py (sobe o vêÂ­deo como release e gera o player)
 ```
 
-## LicenÃ§a do Hypit (resumo)
+## LicenêÂ§a do Hypit (resumo)
 
-O Hypit usa a "Hypit Open Source License" (Apache-2.0 com condiÃ§Ãµes). Em resumo: uso livre para o seu trabalho e o
-de clientes, tambÃ©m comercial; nÃ£o pode operar como serviÃ§o hospedado ou multi-inquilino para terceiros; nÃ£o pode
-vender nem empacotar o Hypit ou derivados; precisa manter o nome e o logo. O que vocÃª cria Ã© seu; os termos dos
-provedores de modelo continuam valendo. Leia a licenÃ§a completa em https://github.com/hypit-ai/hypit.
+O Hypit usa a "Hypit Open Source License" (Apache-2.0 com condiêÂ§êÂµes). Em resumo: uso livre para o seu trabalho e o
+de clientes, tambêÂ©m comercial; nêÂ£o pode operar como serviêÂ§o hospedado ou multi-inquilino para terceiros; nêÂ£o pode
+vender nem empacotar o Hypit ou derivados; precisa manter o nome e o logo. O que vocêÂª cria êÂ© seu; os termos dos
+provedores de modelo continuam valendo. Leia a licenêÂ§a completa em https://github.com/hypit-ai/hypit.
 
-## LicenÃ§a deste kit
+## LicenêÂ§a deste kit
 
-[MIT](LICENSE) â€” vale sÃ³ para o texto, os modelos de arquivo e os scripts do ARCKHÉ.
+[MIT](LICENSE) ê¢â¬â vale sêÂ³ para o texto, os modelos de arquivo e os scripts do ARCKHê.
 
 ---
 
-ConteÃºdo aberto e gratuito do **[ARCKHÉ AI](https://ARCKHÉ AI)**.
+ConteêÂºdo aberto e gratuito do **[ARCKHê AI](https://ARCKHê AI)**.
 
 ---
 

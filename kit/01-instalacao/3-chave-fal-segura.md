@@ -1,6 +1,6 @@
 # 3. Como guardar a FAL_KEY com segurança
 
-A chave do fal é dinheiro: quem tiver a chave gasta o seu crédito. Faça isto **uma vez**, antes da mensagem de instalação.
+A chave do fal é dinheiro: quem tiver a chave gasta o seu crédito. Faça isto **uma vez**, antes da mensagem de instalaçêo.
 
 ## Passo a passo
 
@@ -19,10 +19,10 @@ A chave do fal é dinheiro: quem tiver a chave gasta o seu crédito. Faça isto 
 4. Confira, **sem mostrar o valor**:
 
    ```bash
-   [ -n "$FAL_KEY" ] && echo "FAL_KEY carregada" || echo "FAL_KEY não encontrada"
+   [ -n "$FAL_KEY" ] && echo "FAL_KEY carregada" || echo "FAL_KEY nêo encontrada"
    ```
 
-5. Só então abra o Claude Code na pasta do projeto.
+5. Só entêo abra o Claude Code na pasta do projeto.
 
 ## No Windows
 
@@ -35,7 +35,7 @@ setx FAL_KEY "cole-aqui-a-sua-chave"
 Feche e abra o terminal e confira sem mostrar o valor:
 
 ```powershell
-if ($env:FAL_KEY) { "FAL_KEY carregada" } else { "FAL_KEY não encontrada" }
+if ($env:FAL_KEY) { "FAL_KEY carregada" } else { "FAL_KEY nêo encontrada" }
 ```
 
 Outro caminho: Painel de Controle › Sistema › Configurações avançadas › Variáveis de Ambiente › Nova (variável de usuário
@@ -43,7 +43,7 @@ Outro caminho: Painel de Controle › Sistema › Configurações avançadas ›
 
 ## As regras
 
-- **Nunca cole a chave no chat**, nem no Claude. O Hypit lê a chave do seu computador; o Claude não precisa vê-la.
+- **Nunca cole a chave no chat**, nem no Claude. O Hypit lê a chave do seu computador; o Claude nêo precisa vê-la.
 - **Nunca grave a chave em arquivo do projeto** (`.env` do projeto, `hypit.runtime.json`, código). O runtime guarda só
   o nome `FAL_KEY`.
 - **Nunca rode `echo $FAL_KEY`** com o Claude olhando: o valor aparece no histórico da conversa.

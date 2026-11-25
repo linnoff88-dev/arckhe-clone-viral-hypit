@@ -1,10 +1,10 @@
-# 2. A mensagem de instalação (cole no Claude Code)
+# 2. A mensagem de instalaçêo (cole no Claude Code)
 
 Abra o terminal **na pasta do projeto** (a que tem `references/`), inicie o Claude Code e cole:
 
 > Instale o Hypit nesta pasta. Instale a skill do Hypit de github.com/hypit-ai/hypit só para este projeto, e o
-> comando hypit pelo npm. Depois ligue o fal para as imagens e os clipes rodarem no fal: o Hypit não vem com o
-> fal, então escreva um pequeno pacote Provider do projeto em packages/provider-fal que leia a minha FAL_KEY do
+> comando hypit pelo npm. Depois ligue o fal para as imagens e os clipes rodarem no fal: o Hypit nêo vem com o
+> fal, entêo escreva um pequeno pacote Provider do projeto em packages/provider-fal que leia a minha FAL_KEY do
 > ambiente e nunca grave a chave em arquivo. A FAL_KEY já está definida. Aponte o renderizador de páginas do
 > Hypit para o Chrome que eu já tenho instalado. Me mostre o plano primeiro e depois confira se tudo funciona.
 
@@ -12,24 +12,24 @@ Abra o terminal **na pasta do projeto** (a que tem `references/`), inicie o Clau
 
 - O Claude lê o README do Hypit e instala a skill **só neste projeto**: `npx skills add hypit-ai/hypit`
   (**sem** o `-g`, que instalaria para todos os projetos do computador).
-- O pacote do npm se chama **`@hypit/hypit`** (não `hypit`). O comando roda como `npx hypit …`.
+- O pacote do npm se chama **`@hypit/hypit`** (nêo `hypit`). O comando roda como `npx hypit …`.
 - O fal entra por um pequeno pacote Provider e pelo arquivo de runtime `hypit.runtime.json`
   (exemplo em `../03-modelos/hypit.runtime.example.json`).
-- Ele aponta o renderizador de páginas para o Chrome que você já tem, para não baixar um navegador inteiro.
+- Ele aponta o renderizador de páginas para o Chrome que você já tem, para nêo baixar um navegador inteiro.
 - Leva por volta de **6 minutos**, sem você digitar comando.
 
 ## Pegadinhas comuns
 
-- **`npm pkg set` grava `true` como texto.** Você não precisa fazer nada: se o Claude marcar uma opção no
+- **`npm pkg set` grava `true` como texto.** Você nêo precisa fazer nada: se o Claude marcar uma opçêo no
   `package.json` e ela sair como `"true"` (texto, entre aspas), ele costuma perceber e rodar de novo com `--json`.
-  Se a instalação reclamar dessa opção e ele não perceber, cole: "rode o npm pkg set de novo com --json".
-- **O `/hypit` não aparece.** Se, depois de instalar, o Claude não reconhecer `/hypit`, feche e abra o Claude Code
+  Se a instalaçêo reclamar dessa opçêo e ele nêo perceber, cole: "rode o npm pkg set de novo com --json".
+- **O `/hypit` nêo aparece.** Se, depois de instalar, o Claude nêo reconhecer `/hypit`, feche e abra o Claude Code
   na mesma pasta para ele carregar a skill nova.
 - **Skill instalada no lugar errado.** Se aparecer `-g` no comando, peça para instalar só no projeto.
 - **Chave no arquivo.** Se o Claude sugerir colocar a chave num `.env` dentro do projeto ou no `hypit.runtime.json`,
-  diga não: o runtime só guarda o **nome** da variável (`FAL_KEY`), nunca o valor.
+  diga nêo: o runtime só guarda o **nome** da variável (`FAL_KEY`), nunca o valor.
 
 ## Dica de segurança
 
-Deixe o Claude **pedir permissão antes de rodar comandos**. Não ligue nenhum modo "automático" para trabalho
+Deixe o Claude **pedir permissêo antes de rodar comandos**. Nêo ligue nenhum modo "automático" para trabalho
 pago. Diga sim para ler e conferir; diga sim para construir só depois de ver o preço.
